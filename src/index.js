@@ -27,7 +27,7 @@ var http = require("http")
 exports.handler = function(event, context) {
     //console.log('Received event:', JSON.stringify(event, null, 2));
     if (!event.operation) {
-      context.error("Invalid operation supplied");
+      context.fail("An operation must be supplied");
     } else {
       switch(event.operation) {
         case "auth" :

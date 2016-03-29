@@ -37,9 +37,9 @@ exports.handler = function(event, context) {
           break;
         case "getLists":
           if (!event.token) {
-            context.error("A token is required for this operation. Please call auth first");
+            context.fail("A token is required for this operation. Please call auth first");
           } else if (!event.teamId) {
-            context.error("A team idken is required for this operation. Please call auth first");
+            context.fail("A team idken is required for this operation. Please call auth first");
           } else {
             client.auth = event.token;
             client.teamId = event.teamId;
@@ -50,13 +50,13 @@ exports.handler = function(event, context) {
           break;
         case "addToList":
           if (!event.token) {
-            context.error("A token is required for this operation. Please call auth first");
+            context.fail("A token is required for this operation. Please call auth first");
           } else if (!event.teamId) {
-            context.error("A team idken is required for this operation. Please call auth first");
+            context.fail("A team idken is required for this operation. Please call auth first");
           } else if (!event.listId) {
-            context.error("A list id is required");
+            context.fail("A list id is required");
           } else if (!event.itemName) {
-            context.error("An item is required (itemName)")
+            context.fail("An item is required (itemName)")
           } else {
             client.auth = event.token;
             client.teamId = event.teamId;

@@ -16,7 +16,7 @@ var context = function() {
       console.log("Error: ", err);
       console.log("Result", result);
     },
-    error: function(err, result) {
+    fail: function(err, result) {
       console.log("Error: ", err);
       console.log("Result", result);
     }

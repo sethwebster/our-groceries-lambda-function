@@ -6,6 +6,7 @@
   "dependencies": {
     "dotenv": "^2.0.0",
     "node-lambda": "^0.7.1",
+    "our-groceries-client": "^0.1.1",
     "request": "^2.69.0"
   },
   "devDependencies": {

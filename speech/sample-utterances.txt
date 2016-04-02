@@ -1,0 +1,25 @@
+AddItem to add {orange juice|itemName} to my {west side market|listName} list
+AddItem to add {orange juice|itemName} to {west side market|listName} list
+AddItem to add {orange juice|itemName} to {west side market|listName}
+AddItem add {orange juice|itemName} to my {west side market|listName} list
+AddItem add {orange juice|itemName} to {west side market|listName} list
+AddItem add {orange juice|itemName} to {west side market|listName}
+AddItem to pick up {orange juice|itemName} from {west side market|listName}
+AddItem pick up {orange juice|itemName} from {west side market|listName}
+AddItem to grab {orange juice|itemName} at {west side market|listName}
+AddItem to grab {orange juice|itemName} from {west side market|listName}
+AddItem to add {orange juice|itemName} to my {west side market|listName} list
+AddItem to add {orange juice|itemName} to {west side market|listName} list
+AddItem to add {orange juice|itemName} to {west side market|listName}
+AddItem add {orange juice|itemName} to my {west side market|listName} list
+AddItem add {orange juice|itemName} to {west side market|listName} list
+AddItem add {orange juice|itemName} to {west side market|listName}
+AddItem to pick up {orange juice|itemName} from {west side market|listName}
+AddItem pick up {orange juice|itemName} from {west side market|listName}
+AddItem to grab {orange juice|itemName} at {west side market|listName}
+AddItem to grab {orange juice|itemName} from {west side market|listName}
+
+
+
+ListItems whats on my {west side market|listName} list
+ListItems whats on our {west side market|listName} list

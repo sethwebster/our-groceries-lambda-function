@@ -12,6 +12,7 @@
 
 function AlexaSkill(appId) {
     this._appId = appId;
+    console.log("Initializing AlexaSkill with appId: "+appId);
 }
 
 AlexaSkill.speechOutputType = {

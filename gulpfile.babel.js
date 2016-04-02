@@ -7,7 +7,7 @@ import sourcemaps from 'gulp-sourcemaps';
 
 const paths = {
   sources: {
-    js: "src/*.js",
+    js: "src/**/*.js",
     package: 'package.json',
     env: '.env'
   },

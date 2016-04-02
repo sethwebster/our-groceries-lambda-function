@@ -2,7 +2,7 @@
 
 import http from 'http';
 import OurGroceriesClient from 'our-groceries-client';
-import OurGroceriesSkill from './our-groceries-skill';
+import OurGroceriesSkill from 'our-groceries-skill';
 import extend from 'extend';
 import env from 'dotenv';
 

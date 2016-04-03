@@ -1,25 +1,15 @@
-AddItem to add {orange juice|itemName} to my {west side market|listName} list
-AddItem to add {orange juice|itemName} to {west side market|listName} list
-AddItem to add {orange juice|itemName} to {west side market|listName}
-AddItem add {orange juice|itemName} to my {west side market|listName} list
-AddItem add {orange juice|itemName} to {west side market|listName} list
-AddItem add {orange juice|itemName} to {west side market|listName}
-AddItem to pick up {orange juice|itemName} from {west side market|listName}
-AddItem pick up {orange juice|itemName} from {west side market|listName}
-AddItem to grab {orange juice|itemName} at {west side market|listName}
-AddItem to grab {orange juice|itemName} from {west side market|listName}
-AddItem to add {orange juice|itemName} to my {west side market|listName} list
-AddItem to add {orange juice|itemName} to {west side market|listName} list
-AddItem to add {orange juice|itemName} to {west side market|listName}
-AddItem add {orange juice|itemName} to my {west side market|listName} list
-AddItem add {orange juice|itemName} to {west side market|listName} list
-AddItem add {orange juice|itemName} to {west side market|listName}
-AddItem to pick up {orange juice|itemName} from {west side market|listName}
-AddItem pick up {orange juice|itemName} from {west side market|listName}
-AddItem to grab {orange juice|itemName} at {west side market|listName}
-AddItem to grab {orange juice|itemName} from {west side market|listName}
+// EXPAND AT - http://www.makermusings.com/amazon-echo-utterance-expander/
 
+AddItem (/to) (add/pick up) {orange juice|itemName} (to/from) (/my/our/the) {west side market|listName} (/list)
+AddItem (/to) (add/pick up) {(spinach and baby kale/orange juice/greens/tofu)|itemName} (to/from) (/my/our/the) {(trader joe's/fairway/safeway/west side market)|listName} (/list)
 
+ListItems (what's/what is) on (my/our) {west side market|listName} (/list)
+ListItems (/to) list (my/our) (/on) {west side market|listName}
+ListItems (/to) list items on (/my/our/the) {west side market|listName} (/list)
+ListItems list items for {west side market|listName}
+ListItems what do I need (from/at) {west side market|listName}
 
-ListItems whats on my {west side market|listName} list
-ListItems whats on our {west side market|listName} list
+ListLists (/to) list (my/our) lists
+ListLists what lists do (I/we) have
+ListLists to tell (me/us) what lists (I/we) have
+ListLists to tell (me/us) our lists

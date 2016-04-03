@@ -4,10 +4,10 @@
   "description": "",
   "main": "index.js",
   "dependencies": {
-    "alexa-lambda-skill": "^3.0.2",
     "extend": "^3.0.0",
     "node-lambda": "^0.7.1",
     "our-groceries-client": "^0.1.64-pre",
+    "our-groceries-skill": "0.1.0-pre",
     "request": "^2.69.0"
   },
   "devDependencies": {

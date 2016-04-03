@@ -18,7 +18,7 @@ var context = {
 
 var event = {
   "session": {
-    "sessionId": "SessionId.1679d184-6c3c-473b-9542-214b40b85d8a",
+    "sessionId": "SessionId.d617a480-8279-42a6-94ca-730807c01b97",
     "application": {
       "applicationId": "amzn1.echo-sdk-ams.app.75f53fbc-5de6-441a-9a07-716573e6c5cc"
     },
@@ -29,10 +29,10 @@ var event = {
   },
   "request": {
     "type": "IntentRequest",
-    "requestId": "EdwRequestId.46a0a290-1414-4513-aaca-bdbc95dfa507",
-    "timestamp": "2016-04-01T11:23:34Z",
+    "requestId": "EdwRequestId.f0339635-365c-4d3a-a923-234a9cd078f0",
+    "timestamp": "2016-04-03T01:31:42Z",
     "intent": {
-      "name": "ListItems",
+      "name": "ListLists",
       "slots": {
         "listName": {
           "name": "listName",

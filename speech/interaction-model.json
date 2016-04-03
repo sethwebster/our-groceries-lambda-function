@@ -1,0 +1,30 @@
+{
+  "intents": [
+    {
+      "intent": "AddItem",
+      "slots": [
+        {
+          "name": "itemName",
+          "type": "LITERAL"
+        },
+        {
+          "name": "listName",
+          "type": "LITERAL"
+        }
+      ]
+    },
+    {
+      "intent": "ListItems",
+      "slots": [
+        {
+          "name":"listName",
+          "type":"LITERAL"
+        }
+      ]
+    },
+    {
+      "intent": "ListLists",
+      "slots": []
+    }
+  ]
+}

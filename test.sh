@@ -1,3 +1,3 @@
 #!/bin/sh
 gulp
-node test/test-skill.js
+node debug test/test-skill.js

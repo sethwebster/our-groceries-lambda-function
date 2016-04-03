@@ -1,14 +1,18 @@
 {
-  "name": "our-groceries-api",
+  "name": "our-groceries-lambda-function",
   "version": "1.0.0",
-  "description": "",
+  "description": "An Amazon Lambda function for responding to Amazon Echo and Our Groceries",
   "main": "index.js",
   "dependencies": {
     "extend": "^3.0.0",
     "node-lambda": "^0.7.1",
     "our-groceries-client": "^0.1.64-pre",
-    "our-groceries-skill": "0.1.0-pre",
+    "our-groceries-skill": "^0.1.04-pre",
     "request": "^2.69.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git:ssh://git@github.com:sethwebster/our-groceries-lambda-function.git"
   },
   "devDependencies": {
     "babel-core": "^6.7.4",

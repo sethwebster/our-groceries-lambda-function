@@ -16,9 +16,9 @@ var context = {
   }
 }
 
-var event = {
+var event ={
   "session": {
-    "sessionId": "SessionId.d617a480-8279-42a6-94ca-730807c01b97",
+    "sessionId": "SessionId.be517a62-1466-4637-8de9-11fe822ddcfe",
     "application": {
       "applicationId": "amzn1.echo-sdk-ams.app.75f53fbc-5de6-441a-9a07-716573e6c5cc"
     },
@@ -29,14 +29,18 @@ var event = {
   },
   "request": {
     "type": "IntentRequest",
-    "requestId": "EdwRequestId.f0339635-365c-4d3a-a923-234a9cd078f0",
-    "timestamp": "2016-04-03T01:31:42Z",
+    "requestId": "EdwRequestId.7bd7c6d4-b70d-4cc1-baaa-5c1cff95be04",
+    "timestamp": "2016-04-03T11:55:40Z",
     "intent": {
-      "name": "ListLists",
+      "name": "AddItem",
       "slots": {
+        "itemName": {
+          "name": "itemName",
+          "value": "snapple"
+        },
         "listName": {
           "name": "listName",
-          "value": "trader joe's"
+          "value": "west side"
         }
       }
     }

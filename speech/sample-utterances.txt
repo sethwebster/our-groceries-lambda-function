@@ -1,7 +1,7 @@
 // EXPAND AT - http://www.makermusings.com/amazon-echo-utterance-expander/
 
-AddItem (/to) (add/pick up) {orange juice|itemName} (to/from) (/my/our/the) {west side market|listName} (/list)
-AddItem (/to) (add/pick up) {(spinach and baby kale/orange juice/greens/tofu)|itemName} (to/from) (/my/our/the) {(trader joe's/fairway/safeway/west side market)|listName} (/list)
+AddItem (/to) (add/pick up) {orange juice|itemName} (to/from) (/my/our/the) {(one/one two/one two three/one two three four)|listName} (/list)
+AddItem (/to) (add/pick up) {(thing/spinach and baby kale/orange juice/greens/tofu)|itemName} (to/from) (/my/our/the) {(one/one two/one two three/one two three four)|listName} (/list)
 
 ListItems (what's/what is) on (my/our) {west side market|listName} (/list)
 ListItems (/to) list (my/our) (/on) {west side market|listName}
